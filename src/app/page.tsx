@@ -1,7 +1,6 @@
 import GlobalFooter from "@/components/GlobalFooter";
 import ShowCaseUl from "@/components/ShowCaseUl";
 import { WhoWeAre } from "@/components/WhoWeAre";
-import Image from "next/image";
 import React from "react";
 
 const Home = () => {
