@@ -1,3 +1,4 @@
+import Calendly from "@/components/Calendly";
 import GlobalFooter from "@/components/GlobalFooter";
 import ShowCaseUl from "@/components/ShowCaseUl";
 import { WhoWeAre } from "@/components/WhoWeAre";
@@ -36,20 +37,8 @@ const Home = () => {
           </div>
         </article>
       </section>
-      <section className="calendlyBlock min-h-screen py-12 bg-slate-100">
-        <article className="calendlyTitle w-11/12 max-w-[800px] mx-auto">
-          <h2 className="text-4xl mb-12 mt-4 leading-tight">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum
-            hic, aspernatur sint doloribus sit.
-          </h2>
-        </article>
-        <article className="calendlyContent w-11/12 max-w-[1000px] mx-auto">
-          <div className="calendlyContentBlock bg-slate-200 h-[600px]">
-            Calendly widget here...
-          </div>
-        </article>
-        <ShowCaseUl />
-      </section>
+      <Calendly />
+      <ShowCaseUl />
 
       <WhoWeAre />
       <GlobalFooter />
